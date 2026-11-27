@@ -6,7 +6,7 @@ name: tt-insight
 description: "TikTok洞察数据只读技能：关键词搜视频、博主作品、视频评论，输出 JSON，不登录不发布。触发词：TikTok、tiktok、抖音国际版、TikTok搜索、TikTok评论、TikTok博主。用户要查 TikTok 视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、快手、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.3
-display_name: "TikTok洞察数据｜关键词搜索·作品表现·评论反馈·互动数据"
+display_name: "TikTok洞察数据｜关键词搜索·作品表现·评论·互动数据"
 display_name_en: "TikTok Insight"
 description_zh: "TikTok洞察公开数据（只读）：作品详情、视频评论、博主作品、关键词搜视频，为数据洞察提供多语言结构化 JSON 数据"
 description_en: "Read-only TikTok insight data source: keyword video search (relevance or most-liked sorting with time-window filters), creator post lists (latest or hottest sorting), post detail with plays, likes and engagement stats, and video comments - all returned as structured JSON an AI can turn into an insight report. Covers trending-topic mining, hashtag and duration patterns, competitor monitoring, KOL post verification and comment sentiment analysis. Read-only by design: no login, no publishing, no likes, no comments. Pay-per-use up to 10,000 records per call; monthly plans allow up to 30 searches, 30 post queries and 40 comment queries - exceeding them returns PLAN_LIMIT (exit code 1), so lower the limit or upgrade only with the user's consent."
